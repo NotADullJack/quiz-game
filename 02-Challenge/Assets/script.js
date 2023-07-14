@@ -21,7 +21,9 @@ var timeLeft = 30;
 })
 
 //counter that adds one point to total score when the correct answer is checked off
+var score = document.getElementById('counter')
 document.getElementById('correctAnswer').addEventListener("click", function() {
+score += 1 
 
 })
 
